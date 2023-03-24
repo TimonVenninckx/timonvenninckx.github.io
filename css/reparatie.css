@@ -9,6 +9,12 @@ div > h2{
     color:var(--header-color);
 }
 
+p > a{
+    color:var(--header-color);
+}
+p > a:hover{
+    color:blue;
+}
 .text-with-image{
     padding-block:30px;
     gap:30px;
@@ -23,8 +29,10 @@ div > h2{
 
 @media screen and (max-width:768px){
     .text-with-image > img{
-        width:100%;
         height:auto;
+        margin:auto;
+        display:block;
+        max-width:100%;
     }
 }
 

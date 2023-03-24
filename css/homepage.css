@@ -2,12 +2,21 @@
 /* content */
 
 
+.media{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
 .media > img,
 .media > iframe,
 .media > video{
-    width:100%;
     aspect-ratio: 16/9;
     height:auto;
+}
+iframe{
+    border:0;
 }
 
 
@@ -26,6 +35,7 @@
         display:flex;
         flex-direction:row;
         flex-wrap:wrap;
+        gap:0;
     }
     .media > img{
         width:calc(100% / 3);
@@ -60,8 +70,8 @@
     align-items:center;
 }
 .kaarten > ul > li{
-    background-color:rgba(60,91,127,0.86);
-    color:white;
+    background-color:lightgray;
+    color:black;
     width:min-content;
     border: 2px black solid;
     box-sizing:border-box;
@@ -89,6 +99,9 @@
 }
 .kaarten > ul > li > div > a:hover{
     color:blue;
+}
+.kaarten h2{
+    color:var(--header-color);
 }
 
 @media screen and (min-width:768px){
