@@ -1,0 +1,40 @@
+
+section{
+    overflow-x:auto;
+}
+#winkelwagen{
+    width:100%;
+}
+
+#winkelwagen > thead{
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+#winkelwagen td{
+  padding-block: 15px;
+}
+
+#winkelwagen td > input{
+    width:50px;
+}
+#winkelwagen td > a {
+    color:var(--header-color);
+}
+#winkelwagen td > a:hover{
+    color:rgb(0, 0, 255);
+}
+
+#winkelwagen td > div{
+    display:inline;
+}
+
+@media screen and (max-width:768px){
+    #winkelwagen td{
+        font-size:0.6rem;
+        padding-block: 5px;
+    }
+    #winkelwagen td > input{
+        width:30px;
+    }
+}

@@ -1,0 +1,74 @@
+main{
+    background-color:var(--background-color);
+}
+
+#map{
+    padding:0;
+    height: 500px;
+}
+  
+
+#contactformulier{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+}
+
+
+#contactformulier > h1{
+    color:var(--header-color);
+    font-size:1.3rem;
+    letter-spacing:2px;
+}
+
+#contactformulier > h2 {
+    font-size:2.5rem;
+    padding-block:5px;
+}
+#contactformulier > label{
+    font-size:1.3rem;
+    font-weight:bold;
+}
+
+
+#contactformulier > div > span{
+    width:100%;
+}
+
+#contactformulier > div > span > input{
+    width:100%;
+}
+
+#contactformulier > input,
+#contactformulier > textarea{
+    width:100%;
+    margin-block:20px;
+}
+
+#bericht{
+    width:100%;
+    height:200px;
+}
+
+
+
+#contactformulier > div{
+    margin-block:20px;
+}
+
+.required{
+    color:red;
+}
+
+
+@media screen and (min-width:600px){
+    #contactformulier > div{
+        display:flex;
+        flex-direction:row;
+        gap:15px;
+    }
+    #contactformulier > input{
+        width:50%;
+    }
+}
+

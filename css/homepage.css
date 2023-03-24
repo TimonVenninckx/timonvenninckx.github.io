@@ -1,0 +1,126 @@
+
+/* content */
+
+
+.media > img,
+.media > iframe,
+.media > video{
+    width:100%;
+    aspect-ratio: 16/9;
+    height:auto;
+}
+
+
+@media screen and (min-width:768px) {
+    .content{
+        column-count:2;
+    }
+}
+
+
+/* Media */
+
+
+@media screen and (min-width:768px){
+    .media{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+    .media > img{
+        width:calc(100% / 3);
+    }
+    .media > iframe,
+    .media > video{
+        width:50%;
+    }
+}
+@media screen and (min-width:1024px){
+    .media{
+        gap:10px;
+    }
+
+    .media > img,
+    .media > iframe,
+    .media > video{
+        width:calc(100% / 5 - 8px);
+    }
+}
+
+
+
+
+/* Kaarten */
+
+.kaarten > ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    align-items:center;
+}
+.kaarten > ul > li{
+    background-color:rgba(60,91,127,0.86);
+    color:white;
+    width:min-content;
+    border: 2px black solid;
+    box-sizing:border-box;
+    border-radius:25px;
+    padding:5px;
+}
+.kaarten img{
+    padding-block-start:2px;
+    display: block;
+    max-width:250px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    border-radius:25px 25px 0 0;
+}
+.kaarten > ul > li > div{
+    min-height:125px;
+    position:relative;
+}
+.kaarten > ul > li > div > a{
+    color:var(--header-color);
+    position: absolute;
+    bottom: 5px;
+    left:5px;
+}
+.kaarten > ul > li > div > a:hover{
+    color:blue;
+}
+
+@media screen and (min-width:768px){
+    .kaarten > ul{
+        align-items:flex-start;
+    }
+
+    .kaarten > ul > li{
+        display:flex;
+        flex-direction: row;
+    }
+    .kaarten > ul > li:nth-of-type(2){
+        align-self:flex-end;
+        flex-direction:row-reverse;
+    }
+    .kaarten > ul > li > div{
+        min-width:180px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .kaarten > ul{
+        flex-direction:row;
+        justify-content:space-around;
+        flex:1;
+    }
+    .kaarten > ul > li,
+    .kaarten > ul > li:nth-of-type(2){
+        flex-direction:column;
+        height:380px;
+    }
+    .kaarten > ul > li > div{
+        height:100%;
+    }
+}

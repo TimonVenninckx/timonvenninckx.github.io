@@ -1,0 +1,36 @@
+section > div > ul{
+    padding-inline-start: 40px;
+    padding-block-end:20px;
+}
+
+div > h2{
+    font-size:2rem;
+    padding-block-end:15px;
+    color:var(--header-color);
+}
+
+.text-with-image{
+    padding-block:30px;
+    gap:30px;
+}
+.text-with-image > img{
+    border-radius:10%;
+}
+
+.text-with-image:nth-of-type(even){
+    background-color:var(--background-color);
+}
+
+@media screen and (max-width:768px){
+    .text-with-image > img{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media screen and (min-width:768px){
+    .text-with-image{
+        display:flex;
+        flex-direction: row;
+    }
+}

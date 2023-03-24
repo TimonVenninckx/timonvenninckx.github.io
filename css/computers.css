@@ -1,0 +1,30 @@
+.collectie{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    gap:15px;
+}
+
+.computer-item{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:230px;
+    height:300px;
+    text-align: center;
+    border:1px lightgray solid;
+    box-sizing:border-box;
+}
+.computer-item > h3{
+    border-block-start:1px lightgray solid;
+    box-sizing:border-box;
+    padding:8px;
+}
+
+section a{
+    color:var(--header-color);
+}
+section a:hover{
+    color:blue;
+}

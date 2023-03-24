@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&family=Roboto+Condensed&display=swap');
+
+/*
+
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
+
+
+*{
+    margin:0;
+    padding:0;
+    
+    --max-width:1024px;
+    --header-color:#5dac4e;
+    --background-color:rgba(128, 128, 128, 0.247);
+    font-family: 'Noto Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration-line:none;
+    color:inherit;
+}
+
+main{
+    min-height: calc(50vh);
+}
+
+
+
+
+/* header / Logo & Menu */
+
+header{
+    background-color:lightblue;
+}
+header{
+    position:sticky;
+    top:0;
+    z-index:2;
+}
+
+#logo{
+    max-width:120px;
+    height:auto;
+}
+figure{
+    margin:auto;
+    width:min-content;
+    padding-block-start:5px;
+    position:relative;
+}
+a > figcaption{
+    position:absolute;
+    text-align:center;
+    bottom:0;
+    width:100%;
+    color:white;
+    text-shadow:1px 1px 3px black, 1px 1px 3px black, 1px 1px 3px black;
+}
+nav > ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    background-color:var(--header-color);
+    color:white;
+}
+nav > ul > li > a{
+    display:block;
+    padding:5px;
+}
+
+nav > ul > li > a:hover{
+    background-color:rgba(0,0,255,.3);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;    
+    padding:5px;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+/* FOOTER */
+
+
+
+footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    padding-block-start:30px;
+}
+footer > div > section{
+    width:100%;
+}
+footer > div > section > h2{
+    color:var(--header-color);
+    letter-spacing:2px;
+}
+footer > div > section > hr{
+    margin-block:15px;
+}
+footer > div > section > ul{
+    list-style-type:none;
+}
+
+footer > div > section > table{
+    width:100%;
+}
+
+
+footer td{
+    color:white;
+}
+
+#niewsbrief{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+#niewsbrief > input{
+    max-width:250px;
+}
+
+/* BUTTONS */
+
+
+
+
+
+button{
+    background-color:var(--header-color);
+    color:white;
+    padding:7px;
+    width:max-content;
+    border:none;
+    border-radius:50px;
+    box-shadow: none;
+    font-size:1.3rem;
+}
+button:hover{
+    background-color:black;
+    cursor:pointer;
+}
+
+
+/* STUFF SPLITTER */
+
+
+.splitter{
+    width:100%;
+    height:3px;
+    background-image: linear-gradient(to right,darkblue, lightblue, darkblue);
+}
+
+.img-header{
+    margin:auto;
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.text-header{
+    width:100%;
+    background-color:var(--header-color);
+    color:white;
+    padding:30px 0;
+}
+.text-header > h1,
+.text-header > p{
+    max-width:var(--max-width);
+    margin:auto;
+    text-indent:5px;
+    /* Because there is no section padding in effect */
+}
+
+p{
+    margin-block-end:20px;
+}
+
+main > section,
+main > .splitter{
+    max-width:var(--max-width);
+    margin:auto;
+}
+
+
+section{
+    padding:15px 5px;
+    box-sizing:border-box;
+}
+
+section > h2{
+    color:var(--header-color);
+    margin-block-end:10px;
+}
+
+
+@media screen and (min-width:1024px){
+    header,
+    footer{
+        display:grid;
+        grid-template-columns:1fr var(--max-width) 1fr;
+        grid-template-areas: ". content ."
+                             "line line line";
+    }
+    header > figure,
+    header > nav,
+    footer > div:first-of-type{
+        grid-area:content;
+        margin:0;
+    }
+    header > nav{
+        width:max-content;
+        margin-inline-start:auto;;
+    }
+    header > nav > ul{
+        justify-content:end;
+    }
+    header > .splitter,
+    footer > div:last-of-type{
+        grid-area:line;
+    }
+
+    
+    footer > div > small{
+        display:block;
+        margin:auto;
+        max-width:1024px;
+        padding:20px;
+    }
+}
+@media screen and (min-width:768px){
+    footer > div:first-of-type{
+        display:flex;
+        flex-direction:row;
+        gap:25px;
+    }
+
+}
+
+
+@media screen and (max-width:420px){
+    header > nav > ul{
+        font-size:.75rem;        
+    }
+}
+
+
+
+

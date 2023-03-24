@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <title>Computer handel Sevenum</title>
+    <link rel="stylesheet"href="css/normalize.css">
+    <link rel="stylesheet"href="css/stylesheet.css">
+    <link rel="stylesheet"href="css/winkelwagen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="index.html">
+                <img src="image/logo.png" alt="Logo" id="logo" width="1013px" height="695px">
+                <figcaption>Computer Handel<br>Sevenum</figcaption>    
+            </a>
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="computers.html">Computers&or;</a> 
+                    <div class="dropdown-content">
+                        <a href="Computers/Lenovo_Legion_T5.html">Lenovo Legion T5</a>
+                        <a href="Computers/Lenovo_Legion_T5.html">Acer Predator Orion</a>
+                        <a href="Computers/Lenovo_Legion_T5.html">Intel NUC 13 Extreme</a>
+                        <a href="Computers/Lenovo_Legion_T5.html">Lenovo_Legion_T7</a>
+                        <a href="Computers/Lenovo_Legion_T5.html">Medion Erazer</a>
+                    </div>
+                </li>
+                <li><a href="reparatie.html">Reparatie</a></li>
+                <li><a href="winkelwagen.html"><i class="fa">&#xf07a;</i></a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <div class="splitter"></div>
+    </header>
+
+    
+    <section class="text-header">
+        <h1>Uw winkelwagen</h1>
+    </section>
+    <div class="splitter"></div>
+
+    <main>
+        <section>
+            <table id="winkelwagen">
+                <thead>
+                    <tr>
+                        <td>Omschrijving</td>
+                        <td>Merk</td>
+                        <td>Aantal</td>
+                        <td>Stuksprijs</td>
+                        <td>Regelprijs</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="item">
+                        <td><a href="Computers/Lenovo_Legion_T5.html">Lenovo Legion T5 26AMR5 (90RC01BGMH) gaming pc</a></td>
+                        <td>Lenovo</td>
+                        <td><input type="number" value="3" min="0" max="10" onchange="Calculate()"></td>
+                        <td>&euro; <span>1249,00</span></td>
+                        <td class="cost-all">1.249,00</td>
+                    </tr>
+                    <tr class="item">
+                        <td><a href="Computers/Lenovo_Legion_T5.html">Lenovo Legion T5 26AMR5 (90RC01BGMH) gaming pc</a></td>
+                        <td>Lenovo</td>
+                        <td><input type="number" value="2" min="0" max="10" onchange="Calculate()"></td>
+                        <td>&euro; <span>1249,00</span></td>
+                        <td class="cost-all">1.249,00</td>
+                    </tr>
+                    <tr class="item">
+                        <td><a href="Computers/Lenovo_Legion_T5.html">Lenovo Legion T5 26AMR5 (90RC01BGMH) gaming pc</a></td>
+                        <td>Lenovo</td>
+                        <td><input type="number" value="1" min="0" max="10" onchange="Calculate()"></td>
+                        <td>&euro; <span>1249,00</span></td>
+                        <td class="cost-all">1.249,00</td>
+                    </tr>
+                    <tr>
+                        <td>Totaal</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="total">€ 1.249,00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <script language="javascript">   
+            function Calculate() {
+                var table = document.getElementById('winkelwagen');
+                var inputs = table.getElementsByTagName('input');
+                var values = table.getElementsByTagName('span');
+                var element = document.getElementsByClassName("item");
+                var total = 0;
+                for(i=0;i<element.length; i++){
+                    
+                    input = parseFloat(inputs[i].value);
+                    price = parseFloat(values[i].innerHTML);
+                    sum = input * price;    
+                    output =  new Intl.NumberFormat('nl-NL', { style: 'currency', currency: 'EUR' }).format(sum);
+                    element[i].getElementsByClassName("cost-all")[0].innerHTML = output;
+                    total += sum;
+                    
+                }
+
+                document.getElementById('total').innerHTML = 
+                new Intl.NumberFormat('nl-NL', { style: 'currency', currency: 'EUR' }).format(total);
+            }
+            document.addEventListener("DOMContentLoaded", function() {
+                Calculate();
+            });
+
+            </script>
+        </section>
+    </main>
+    
+    <div class="splitter"></div>
+
+    <footer>
+        <div>
+            <section>
+                <h2>BEZOEK ONS</h2>
+                <hr>     
+                <ul>
+                    <li>Computer Sevenum Handel</li>
+                    <li>Broek 1</li>
+                    <li>5975 PB Sevenum</li>
+                    <li>Nederland</li>
+                </ul>
+            </section>
+            <section>
+                <h2>OPENINGSTIJDEN</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <td>Maandag:</td>
+                        <td>13:00 – 17:30</td>
+                    </tr>
+                    <tr>
+                        <td>Di t/m vr:</td>
+                        <td>09:30 – 17:30</td>
+                    </tr>
+                    <tr>
+                        <td>Zaterdag:</td>
+                        <td>09:30 – 17:00</td>
+                    </tr>
+                    <tr>
+                        <td>Zondag:</td>
+                        <td>Gesloten</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Nieuwsbrief</h2>
+                <hr>
+                <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST" id="niewsbrief">
+                    <input id="n-naam" name="n-naam" required placeholder="Volledige naam">
+                    <input id="n-email" name="n-email" type="email" required placeholder="Email-adres">
+                    <button type="submit" value="Aanmelden">Aanmelden</button>
+                </form>
+            </section>
+        </div>
+
+
+        <div>
+            <hr>
+            <small>© 2023 Computer Handel Sevenum | Alle rechten voorbehouden</small>
+        </div>
+    </footer>
+</body>
+
+</html>
