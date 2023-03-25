@@ -1,6 +1,9 @@
-
-section{
+#winkelwagenform{
     overflow-x:auto;
+}
+#winkelwagenform > button{
+    margin:auto;
+    display:block;
 }
 #winkelwagen{
     width:100%;

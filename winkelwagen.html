@@ -13,7 +13,7 @@
     <header>
         <figure>
             <a href="index.html">
-                <img src="image/logo.png" alt="Logo" id="logo" width="120" height="82">
+                <img src="image/logo.png" alt="Website logo (een computer)" id="logo" width="120" height="82">
                 <span>Computer Handel<br>Sevenum</span>    
             </a>
         </figure>
@@ -46,62 +46,64 @@
 
     <main>
         <section>
-            <table id="winkelwagen">
-                <thead>
-                    <tr>
-                        <td>Omschrijving</td>
-                        <td>Merk</td>
-                        <td>Aantal</td>
-                        <td>Stuksprijs</td>
-                        <td>Regelprijs</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="item">
-                        <td><a href="Computers/Lenovo_Legion_T5.html">Lenovo Legion T5 26AMR5 (90RC01BGMH) gaming pc</a></td>
-                        <td>Lenovo</td>
-                        <td><input type="number" value="1" min="0" max="10" onchange="Calculate()"></td>
-                        <td>&euro; <span>1249,00</span></td>
-                        <td class="cost-all">1.249,00</td>
-                    </tr>
-                    <tr class="item">
-                        <td><a href="Computers/Acer_Predator_Orion.html">Acer Predator Orion 5000 640 (DG.E2UEH.009) gaming pc</a></td>
-                        <td>Lenovo</td>
-                        <td><input type="number" value="1" min="0" max="10" onchange="Calculate()"></td>
-                        <td>&euro; <span>1799,00</span></td>
-                        <td class="cost-all">1799,00</td>
-                    </tr>
-                    <tr class="item">
-                        <td><a href="Computers/Intel_NUC_13_Extreme.html">Intel® NUC 13 Extreme Kit - NUC13RNGi9 barebone</a></td>
-                        <td>Lenovo</td>
-                        <td><input type="number" value="1" min="0" max="10" onchange="Calculate()"></td>
-                        <td>&euro; <span>1549,00</span></td>
-                        <td class="cost-all">1549,00</td>
-                    </tr>
-                    <tr class="item">
-                        <td><a href="Computers/Lenovo_Legion_T7.html">Lenovo Legion T7 34IMZ5 (90Q900CLMH) gaming pc</a></td>
-                        <td>Lenovo</td>
-                        <td><input type="number" value="1" min="0" max="10" onchange="Calculate()"></td>
-                        <td>&euro; <span>2699,00</span></td>
-                        <td class="cost-all">2699,00</td>
-                    </tr>
-                    <tr class="item">
-                        <td><a href="Computers/Medion_Erazer_Engineer.html">Medion Erazer Engineer P10 MD35078 (10024430) gaming pc</a></td>
-                        <td>Lenovo</td>
-                        <td><input type="number" value="1" min="0" max="10" onchange="Calculate()"></td>
-                        <td>&euro; <span>1049,00</span></td>
-                        <td class="cost-all">1049,00</td>
-                    </tr>
-                    <tr>
-                        <td>Totaal</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td id="total">€ 1.249,00</td>
-                    </tr>
-                </tbody>
-            </table>
-
+            <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST" id="winkelwagenform">
+                <table id="winkelwagen">
+                    <thead>
+                        <tr>
+                            <td>Omschrijving</td>
+                            <td>Merk</td>
+                            <td>Aantal</td>
+                            <td>Stuksprijs</td>
+                            <td>Regelprijs</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="item">
+                            <td><a href="Computers/Lenovo_Legion_T5.html">Lenovo Legion T5 26AMR5 (90RC01BGMH) gaming pc</a></td>
+                            <td>Lenovo</td>
+                            <td><input name="Lenovo_Legion_T5" type="number" value="1" min="0" max="10" required onchange="Calculate()"></td>
+                            <td>&euro; <span>1249,00</span></td>
+                            <td class="cost-all">1.249,00</td>
+                        </tr>
+                        <tr class="item">
+                            <td><a href="Computers/Acer_Predator_Orion.html">Acer Predator Orion 5000 640 (DG.E2UEH.009) gaming pc</a></td>
+                            <td>Lenovo</td>
+                            <td><input name="Acer_Predator_Orion" type="number" value="1" min="0" max="10" required onchange="Calculate()"></td>
+                            <td>&euro; <span>1799,00</span></td>
+                            <td class="cost-all">1799,00</td>
+                        </tr>
+                        <tr class="item">
+                            <td><a href="Computers/Intel_NUC_13_Extreme.html">Intel® NUC 13 Extreme Kit - NUC13RNGi9 barebone</a></td>
+                            <td>Lenovo</td>
+                            <td><input name="Intel_NUC_13_Extreme" type="number" value="1" min="0" max="10" required onchange="Calculate()"></td>
+                            <td>&euro; <span>1549,00</span></td>
+                            <td class="cost-all">1549,00</td>
+                        </tr>
+                        <tr class="item">
+                            <td><a href="Computers/Lenovo_Legion_T7.html">Lenovo Legion T7 34IMZ5 (90Q900CLMH) gaming pc</a></td>
+                            <td>Lenovo</td>
+                            <td><input name="Lenovo_Legion_T7" type="number" value="1" min="0" max="10" required onchange="Calculate()"></td>
+                            <td>&euro; <span>2699,00</span></td>
+                            <td class="cost-all">2699,00</td>
+                        </tr>
+                        <tr class="item">
+                            <td><a href="Computers/Medion_Erazer_Engineer.html">Medion Erazer Engineer P10 MD35078 (10024430) gaming pc</a></td>
+                            <td>Lenovo</td>
+                            <td><input name="Medion_Erazer_Engineer" type="number" value="1" min="0" max="10" required onchange="Calculate()"></td>
+                            <td>&euro; <span>1049,00</span></td>
+                            <td class="cost-all">1049,00</td>
+                        </tr>
+                        <tr>
+                            <td>Totaal</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td id="total">€ 1.249,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="submit">Bestellen</button>
+            </form>
             <script>   
             function Calculate() {
                 var table = document.getElementById('winkelwagen');

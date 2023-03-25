@@ -4,6 +4,7 @@ section > span{
 
 .computerinfo{
     border:1px solid gray;
+    overflow-x:auto;
 }
 .computerinfo > img{
     width:100%;
