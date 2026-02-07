@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main   # replace with your default branch if not main
+      - main
   workflow_dispatch:
 
 permissions:
@@ -18,36 +18,21 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: "0.145.0"
     steps:
-      # 1️⃣ Install Hugo Extended
-      - name: Install Hugo
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
-          sudo dpkg -i ${{ runner.temp }}/hugo.deb
-
-      # 2️⃣ Checkout repo
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: recursive
-          fetch-depth: 0
 
-      # 3️⃣ Build site
+      - name: Install Hugo
+        run: |
+          sudo apt-get update
+          sudo apt-get install hugo -y
+
       - name: Build Hugo site
         run: hugo --gc --minify
 
-      # 4️⃣ Upload to GitHub Pages
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        id: deployment
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
