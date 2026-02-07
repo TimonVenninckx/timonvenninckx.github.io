@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "0c1228dc23027a07",
+    "type": "split",
+    "children": [
+      {
+        "id": "399bca8c7a276f09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73ec3b56a6a66ccf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Pokemon Tower Defense.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pokemon Tower Defense"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "56f03f8f87c4bded",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f1aa381a91437cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "380fc6641b9172a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a6a494de04335d03",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "748d30f16abc5c3b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b66e028dc10e20d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "245cdf9988f72e87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac14b88c5b6f892a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "static/videos/pokemontowerdefense.mp4",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for pokemontowerdefense"
+            }
+          },
+          {
+            "id": "781dbe2c84efee39",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "static/videos/pokemontowerdefense.mp4",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from pokemontowerdefense"
+            }
+          },
+          {
+            "id": "3937639f432b47ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "27eb53e2e975b917",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5e34646540b24733",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "static/videos/pokemontowerdefense.mp4",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of pokemontowerdefense"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "73ec3b56a6a66ccf",
+  "lastOpenFiles": [
+    "public/pokemon-tower-defense/index.md",
+    "public/pokemon-tower-defense/index.html",
+    "public/pokemon-tower-defense",
+    "public/minecraft/index.md",
+    "public/minecraft/index.html",
+    "public/minecraft",
+    "public/fortnite-clone/index.html",
+    "public/fortnite-clone/index.md",
+    "public/fortnite-clone",
+    "public/tags/index.xml",
+    "public/tags/index.html",
+    "public/tags",
+    "public/svg/loading.min.svg",
+    "public/svg",
+    "public/bomberman/index.md",
+    "public/images/minecraft.jpg",
+    "public/images/avatar.jpeg",
+    "content/posts/minecraft.md",
+    "content/posts/Fortnite clone.md",
+    "content/posts/bomberman.md",
+    "content/posts/Pokemon Tower Defense.md",
+    "static/images/minecraft.jpg"
+  ]
+}

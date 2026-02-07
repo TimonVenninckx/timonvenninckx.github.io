@@ -10,7 +10,7 @@ theme = "LoveIt"
 
 # website title
 
-title = "My New Hugo Site"
+title = "Timon Venninckx"
 
 
 
@@ -92,37 +92,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     title = ""
 
-  [[menu.main]]
 
-    weight = 2
-
-    identifier = "tags"
-
-    pre = ""
-
-    post = ""
-
-    name = "Tags"
-
-    url = "/tags/"
-
-    title = ""
-
-  [[menu.main]]
-
-    weight = 3
-
-    identifier = "categories"
-
-    pre = ""
-
-    post = ""
-
-    name = "Categories"
-
-    url = "/categories/"
-
-    title = ""
 
 
 
@@ -148,11 +118,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # website title for Open Graph and Twitter Cards
 
-  title = "My cool site"
+  title = "Timon Venninckx"
 
   # website description for RSS, SEO, Open Graph and Twitter Cards
 
-  description = "This is my cool site"
+  description = "Timon Venninckx"
 
   # website images for Open Graph and Twitter Cards
 
@@ -164,7 +134,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.author]
 
-    name = "xxxx"
+    name = "Timon Venninckx"
 
     email = ""
 
@@ -194,7 +164,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # title name
 
-      name = ""
+      name = "Home"
 
       # you can add extra information before the name (HTML format is supported), such as icons
 
@@ -222,7 +192,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     #  whether to show Hugo and theme info
 
-    hugo = true
+    hugo = false
 
     #  whether to show copyright info
 
@@ -234,7 +204,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # Site creation time
 
-    since = 2019
+    since = 2026
 
     # ICP info only in China (HTML format is supported)
 
@@ -242,7 +212,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # license info (HTML format is supported)
 
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    # license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 
 
@@ -279,36 +249,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # amount of RSS pages
 
     rss = 10
-
-
-
-  #  App icon config
-
-  [params.app]
-
-    # optional site title override for the app when added to an iOS home screen or Android launcher
-
-    title = "My cool site"
-
-    # whether to omit favicon resource links
-
-    noFavicon = false
-
-    # modern SVG favicon to use in place of older style .png and .ico files
-
-    svgFavicon = ""
-
-    # Android browser theme color
-
-    themeColor = "#ffffff"
-
-    # Safari mask icon color
-
-    iconColor = "#5bbad5"
-
-    # Windows v8-10 tile color
-
-    tileColor = "#da532c"
 
 
 
@@ -376,15 +316,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # URL of avatar shown in home page
 
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/avatar.jpeg"
 
       #  title shown in home page (HTML format is supported)
 
-      title = ""
+      title = "Timon Venninckx"
 
       # subtitle shown in home page (HTML format is supported)
 
-      subtitle = "This is My New Hugo Site"
+      subtitle = "1st year game-programmer@BUAS"
 
       # whether to use typeit animation for subtitle
 
@@ -420,19 +360,19 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.social]
 
-    GitHub = "xxxx"
+    GitHub = "TimonVenninckx"
 
-    Linkedin = ""
+    Linkedin = "timon-venninckx-703459237/"
 
-    X = "xxxx" # 
+    X = "" # 
 
     Twitter = "" # 
 
-    Instagram = "xxxx"
+    Instagram = ""
 
-    Facebook = "xxxx"
+    Facebook = ""
 
-    Telegram = "xxxx"
+    Telegram = ""
 
     Medium = ""
 
@@ -442,7 +382,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     Youtubecustom = ""
 
-    Youtubechannel = ""
+    Youtubechannel = "UC1TLr30oNIoLtG8NARTGlXA"
 
     Tumblr = ""
 
@@ -580,15 +520,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     Phone = ""
 
-    Email = "xxxx@xxxx.com"
+    Email = "timon.venninckx@gmail.com"
 
-    RSS = true # 
+    RSS = false # 
 
 
 
   #  Page global config
 
   [params.page]
+
 
     #  whether to hide a page from home page
 
@@ -716,7 +657,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     [params.page.share]
 
-      enable = true
+      enable = false
 
       X = true # 
 
@@ -955,6 +896,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         # located in "assets/"
 
         # Or
+            
+        # custom
+        
+        custom = "css/custom.css"
 
         # someCSS = "https://cdn.example.com/some.css"
 
@@ -992,7 +937,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # typing speed between each step (measured in milliseconds)
 
-    speed = 100
+    speed = 30
 
     # blinking speed of the cursor (measured in milliseconds)
 
@@ -1044,7 +989,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # 
 
-    enable = true
+    enable = false
 
     # Google Analytics
 
@@ -1088,7 +1033,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.cookieconsent]
 
-    enable = true
+    enable = false
 
     # text strings used for Cookie consent banner
 

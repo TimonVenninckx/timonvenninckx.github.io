@@ -1,19 +1,70 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
+        <title>Timon Venninckx</title>
         <link>http://localhost:1313/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 07 Feb 2026 15:30:07 &#43;0100</lastBuildDate>
+        <description>Timon Venninckx</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 16 Jan 2026 00:00:00 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>My First Post</title>
-    <link>http://localhost:1313/my-first-post/</link>
-    <pubDate>Sat, 07 Feb 2026 15:30:07 &#43;0100</pubDate>
-    <author>xxxx</author>
-    <guid>http://localhost:1313/my-first-post/</guid>
-    <description><![CDATA[<h2 id="introduction">Introduction</h2>
-<p>Hello my name is <strong>Timon</strong>, welcome to my website.</p>
-<p><a href="https://github.com/timonvenninckx" target="_blank" rel="noopener noreffer ">Github</a></p>]]></description>
+    <title>Minecraft remake</title>
+    <link>http://localhost:1313/minecraft/</link>
+    <pubDate>Fri, 16 Jan 2026 00:00:00 &#43;0100</pubDate>
+    <author>Timon Venninckx</author>
+    <guid>http://localhost:1313/minecraft/</guid>
+    <description><![CDATA[<h3 id="introduction">Introduction</h3>
+<p>Test test</p>
+<h3 id="8-week-progress-video">8-Week progress video</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZFkoAZ8V_4w?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>]]></description>
+</item>
+<item>
+    <title>Bomberman remake</title>
+    <link>http://localhost:1313/bomberman/</link>
+    <pubDate>Thu, 30 Oct 2025 00:00:00 &#43;0100</pubDate>
+    <author>Timon Venninckx</author>
+    <guid>http://localhost:1313/bomberman/</guid>
+    <description><![CDATA[<h2 id="block-a">Block A</h2>
+<p>For my first block at BUAS</p>
+<h3 id="8-weeks-of-block-a">8 Weeks of block A</h3>
+<p>This video shows the progress I made during the block.
+Also shows some extra things I did such as starting to learn OpenGL.
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/i5shkpT70e0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+</p>
+<h3 id="bomberman-video">Bomberman Video</h3>
+<p>All the games features.
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/7--UilJrki8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+</p>]]></description>
+</item>
+<item>
+    <title>Pokemon Tower Defense</title>
+    <link>http://localhost:1313/pokemon-tower-defense/</link>
+    <pubDate>Thu, 04 Jul 2024 15:30:07 &#43;0100</pubDate>
+    <author>Timon Venninckx</author>
+    <guid>http://localhost:1313/pokemon-tower-defense/</guid>
+    <description><![CDATA[<h3 id="introduction">Introduction</h3>
+<p>Pokemon Tower Defense is a project that i started because i was playing the original game alot but the servers happened to go down. I wanted to challenge myself to make this game with SFML a multimedia library which i didn&rsquo;t have much knowledge of at the time.</p>
+<h3 id="what-i-learned">What I learned</h3>
+<p>I learned a lot about memory management in this project what to look out for, what to do and what <strong>NOT</strong> to do.</p>]]></description>
+</item>
+<item>
+    <title>Fortnite clone</title>
+    <link>http://localhost:1313/fortnite-clone/</link>
+    <pubDate>Tue, 01 Mar 2022 00:00:00 &#43;0100</pubDate>
+    <author>Timon Venninckx</author>
+    <guid>http://localhost:1313/fortnite-clone/</guid>
+    <description><![CDATA[<h2 id="heading">:)</h2>
+<p>This is a very old project where I made a Fortnite clone using unreal engine with mostly blueprints. At the time I really wanted to recreate the building mechanics that Fortnite had. In the process of making this game I learned a lot about:</p>
+<ul>
+<li>Data structures</li>
+<li>Blueprints</li>
+<li>Replication</li>
+</ul>
+<p>This is quite an old project so I don&rsquo;t have much to say about it anymore but I am proud of the end result.</p>]]></description>
 </item>
 </channel>
 </rss>

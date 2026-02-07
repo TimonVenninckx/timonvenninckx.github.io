@@ -1,0 +1,44 @@
+<article class="summary-card">
+  <a href="{{ .RelPermalink }}">
+
+    {{ with .Params.video }}
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="{{ $.Params.featuredImagePreview }}"
+        class="post-video">
+        <source src="{{ . }}" type="video/mp4">
+      </video>
+    {{ else }}
+      {{ with $.Params.featuredImagePreview }}
+        <img
+          src="{{ . }}"
+          alt="{{ $.Title }}"
+          class="post-image">
+      {{ end }}
+    {{ end }}
+
+
+<div class="summary-content">
+
+  <div class="card-header">
+    <h2>{{ .Title }}</h2>
+
+    {{ with .Params.timeSpent }}
+      <span class="time-spent">⏱ {{ . }}</span>
+    {{ end }}
+  </div>
+
+  {{ with .Params.projectDescription }}
+    <p class="project-description">{{ . }}</p>
+  {{ end }}
+
+</div>
+
+    
+
+  </a>
+</article>
+
