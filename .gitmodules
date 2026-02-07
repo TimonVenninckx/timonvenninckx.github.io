@@ -1,3 +1,6 @@
 [submodule "themes/loveit"]
 	path = themes/loveit
 	url = https://github.com/dillonzq/LoveIt
+[submodule "themes/themes/loveit"]
+	path = themes/themes/loveit
+	url = https://github.com/dillonzq/LoveIt
