@@ -317,7 +317,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # URL of avatar shown in home page
 
-      avatarURL = "/images/avatar.jpeg"
+      avatarURL = "/images/avatar.webp"
 
       #  title shown in home page (HTML format is supported)
 
