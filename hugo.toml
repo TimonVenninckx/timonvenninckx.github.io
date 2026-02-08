@@ -7,14 +7,11 @@ baseURL = "https://www.timon.games/"
 theme = "LoveIt"
 
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
-
-
 # website title
 
 title = "Timon Venninckx"
+
+
 
 
 
@@ -99,7 +96,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 
 
-
 [params]
 
   # site default theme ["auto", "light", "dark"]
@@ -123,6 +119,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # website title for Open Graph and Twitter Cards
 
   title = "Timon Venninckx"
+  
 
   # website description for RSS, SEO, Open Graph and Twitter Cards
 
@@ -168,7 +165,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # title name
 
-      name = "Home"
+      name = "Timon Venninckx"
 
       # you can add extra information before the name (HTML format is supported), such as icons
 
@@ -1218,3 +1215,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   section = ["HTML", "RSS"]
 
   taxonomy = ["HTML", "RSS"]
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
