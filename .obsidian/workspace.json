@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/bomberman.md",
+                "file": "content/posts/minecraft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bomberman"
+              "title": "minecraft"
             }
           }
         ]
@@ -185,10 +185,13 @@
   },
   "active": "af9da45e883b2509",
   "lastOpenFiles": [
+    "public/videos/MinecraftTimelapse.mp4",
+    "content/posts/bomberman.md",
+    "static/videos/MinecraftTimelapse.mp4",
+    "static/videos/Minecraft Timelapse.mp4",
     "content/posts/Fortnite clone.md",
     "content/posts/minecraft.md",
     "content/posts/Pokemon Tower Defense.md",
-    "content/posts/bomberman.md",
     "static/videos/pokemontowerdefense.mp4",
     "static/videos/fortniteclone.mp4",
     "static/videos/bomberman.mp4",
@@ -197,12 +200,10 @@
     "public/videos/bomberman.webm",
     "static/videos/bomberman.webm",
     "public/videos/minecraft_timelapse.webm",
-    "static/videos/minecraft_timelapse.webm",
     "public/images/minecraft.webp",
     "public/images/avatar.webp",
     "static/images/minecraft.webp",
     "static/images/avatar.webp",
-    "layouts/partials/head.html",
     "public/apple-touch-icon.png",
     "public/android-chrome-512x512.png",
     "public/android-chrome-192x192.png",
