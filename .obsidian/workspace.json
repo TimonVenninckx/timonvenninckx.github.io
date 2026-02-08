@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "399bca8c7a276f09",
+        "id": "7884e0b193757b96",
         "type": "tabs",
         "children": [
           {
-            "id": "73ec3b56a6a66ccf",
+            "id": "af9da45e883b2509",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Pokemon Tower Defense.md",
+                "file": "content/posts/minecraft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pokemon Tower Defense"
+              "title": "minecraft"
             }
           }
         ]
@@ -183,8 +183,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "73ec3b56a6a66ccf",
+  "active": "af9da45e883b2509",
   "lastOpenFiles": [
+    "content/posts/minecraft.md",
+    "content/posts/Fortnite clone.md",
+    "content/posts/bomberman.md",
+    "content/posts/Pokemon Tower Defense.md",
     "public/lib/fontawesome-free/all.min.css",
     "themes/LoveIt/resources/_gen/assets/lib/valine/valine.scss_b717925ff708a11c5ab1d6426462a4af.json",
     "themes/LoveIt/resources/_gen/assets/lib/valine/valine.scss_b717925ff708a11c5ab1d6426462a4af.content",
@@ -195,7 +199,6 @@
     "themes/LoveIt/static/lib/katex/fonts/KaTeX_SansSerif-Bold.woff2",
     "themes/LoveIt/static/lib/katex/fonts/KaTeX_Typewriter-Regular.woff2",
     "themes/LoveIt/static/lib/katex/fonts/KaTeX_Size4-Regular.ttf",
-    "themes/LoveIt/static/lib/katex/fonts/KaTeX_Typewriter-Regular.woff",
     "themes/LoveIt/static/lib/lightgallery/fonts/lg.svg",
     "themes/LoveIt/exampleSite/content/tags/installation/_index.zh-cn.md",
     "themes/LoveIt/exampleSite/content/categories/documentation/_index.zh-cn.md",
@@ -227,9 +230,6 @@
     "themes/LoveIt/exampleSite/content/posts/theme-documentation-content/index.en.md",
     "themes/LoveIt/exampleSite/content/posts/theme-documentation-built-in-shortcodes/index.zh-cn.md",
     "themes/LoveIt/exampleSite/content/posts/theme-documentation-built-in-shortcodes/index.en.md",
-    "themes/LoveIt/exampleSite/content/posts/theme-documentation-bilibili-shortcode/index.zh-cn.md",
-    "themes/LoveIt/exampleSite/content/posts/theme-documentation-bilibili-shortcode/index.en.md",
-    "themes/LoveIt/exampleSite/content/posts/theme-documentation-basics/index.zh-cn.md",
-    "themes/LoveIt/exampleSite/content/posts/theme-documentation-basics/index.en.md"
+    "themes/LoveIt/exampleSite/content/posts/theme-documentation-bilibili-shortcode/index.zh-cn.md"
   ]
 }
