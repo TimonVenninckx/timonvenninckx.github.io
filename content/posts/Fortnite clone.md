@@ -3,8 +3,9 @@ date = "2022-03-01T00:00:00+01:00"
 title = "Fortnite clone"
 video = "/videos/fortniteclone.mp4"
 
-projectDescription = "An unreal engine Fortnite remake with steam multiplayer. Gathering, shooting, building, editing and storm mechanics. Made in unreal engine mostly using blueprints."
+projectDescription = "Hobby project an unreal engine Fortnite remake with steam multiplayer. Gathering, shooting, building, editing and storm mechanics. Made in unreal engine mostly using blueprints."
 timeSpent = "3 months"
+teamSize="Solo"
 +++
 
 ### Introduction

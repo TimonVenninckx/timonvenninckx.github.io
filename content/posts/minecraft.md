@@ -6,6 +6,7 @@ featuredImagePreview = "/images/minecraft.webp"
 
 projectDescription = "Minecraft remake made during my second block at BUAS featuring Infinite worlds, biomes, villages, spaghetti caves, building, mining, crafting, block states and a creeper."
 timeSpent = "8 weeks"
+teamSize="Solo"
 +++
 
 

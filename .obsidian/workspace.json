@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/minecraft.md",
+                "file": "content/posts/Fortnite clone.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "minecraft"
+              "title": "Fortnite clone"
             }
           }
         ]
@@ -185,6 +185,10 @@
   },
   "active": "af9da45e883b2509",
   "lastOpenFiles": [
+    "content/posts/minecraft.md",
+    "content/posts/bomberman.md",
+    "content/posts/Fortnite clone.md",
+    "content/posts/Pokemon Tower Defense.md",
     "static/site.webmanifest",
     "static/favicon-32x32.png",
     "static/favicon-16x16.png",
@@ -194,17 +198,12 @@
     "static/android-chrome-192x192.png",
     "static/about.txt",
     "public/videos/MinecraftTimelapse.mp4",
-    "content/posts/bomberman.md",
     "static/videos/MinecraftTimelapse.mp4",
     "static/videos/Minecraft Timelapse.mp4",
-    "content/posts/Fortnite clone.md",
-    "content/posts/minecraft.md",
-    "content/posts/Pokemon Tower Defense.md",
     "static/videos/pokemontowerdefense.mp4",
     "static/videos/fortniteclone.mp4",
     "static/videos/bomberman.mp4",
     "public/videos/fortniteclone.webm",
-    "static/videos/fortniteclone.webm",
     "public/images/minecraft.webp",
     "public/images/avatar.webp",
     "static/images/minecraft.webp",

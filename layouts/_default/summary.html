@@ -26,11 +26,16 @@
   <div class="card-header">
     <h2>{{ .Title }}</h2>
 
-    {{ with .Params.timeSpent }}
-      <span class="time-spent">⏱ {{ . }}</span>
-    {{ end }}
-  </div>
+    <div class="card-meta">
+      {{ with .Params.timeSpent }}
+        <span class="time-spent">⏱ {{ . }}</span>
+      {{ end }}
 
+      {{ with .Params.teamSize }}
+        <span class="team-size">👥 {{ . }}</span>
+      {{ end }}
+    </div>
+  </div>
   {{ with .Params.projectDescription }}
     <p class="project-description">{{ . }}</p>
   {{ end }}

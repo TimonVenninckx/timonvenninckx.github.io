@@ -5,6 +5,7 @@ video = "/videos/bomberman.mp4"
 
 projectDescription = "A bomberman remake I made during the first block of my studies at BUAS."
 timeSpent = "5 weeks"
+teamSize="Solo"
 +++
 
 
