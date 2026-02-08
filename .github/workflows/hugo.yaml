@@ -34,6 +34,10 @@ jobs:
       - name: Build site
         run: hugo --minify --gc --cleanDestinationDir
 
+      - name: Ensure CNAME
+        run: echo "www.timon.games" > ./public/CNAME
+
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

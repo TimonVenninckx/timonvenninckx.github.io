@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - </title>
-        <link>http://localhost:1313/posts/</link>
+        <link>//localhost:1313/posts/</link>
         <description>All Posts | </description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 16 Jan 2026 00:00:00 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 16 Jan 2026 00:00:00 &#43;0100</lastBuildDate><atom:link href="//localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Minecraft remake</title>
-    <link>http://localhost:1313/minecraft/</link>
+    <link>//localhost:1313/minecraft/</link>
     <pubDate>Fri, 16 Jan 2026 00:00:00 &#43;0100</pubDate>
     <author>Timon Venninckx</author>
-    <guid>http://localhost:1313/minecraft/</guid>
+    <guid>//localhost:1313/minecraft/</guid>
     <description><![CDATA[<h3 id="introduction">Introduction</h3>
 <p>For my second block in my first  year at <a href="https://www.buas.nl/" target="_blank" rel="noopener noreffer ">BUAS</a> we were tasked to create a Minecraft clone with OpenGL that had to run on the Raspberry Pi 4 &amp; PC in <strong>8 Weeks</strong>.</p>
 <h3 id="project-features">Project features</h3>
@@ -39,10 +39,10 @@
 </item>
 <item>
     <title>Bomberman remake</title>
-    <link>http://localhost:1313/bomberman/</link>
+    <link>//localhost:1313/bomberman/</link>
     <pubDate>Thu, 30 Oct 2025 00:00:00 &#43;0100</pubDate>
     <author>Timon Venninckx</author>
-    <guid>http://localhost:1313/bomberman/</guid>
+    <guid>//localhost:1313/bomberman/</guid>
     <description><![CDATA[<h3 id="introduction">Introduction</h3>
 <p>For my first block at BUAS we were challenged to recreate Bomberman with C++ without using any of the STL libraries. We were given a template that contained some math and ways to draw sprites on the screen.</p>
 <h3 id="things-i-learned">Things I learned</h3>
@@ -50,10 +50,10 @@
 </item>
 <item>
     <title>Pokemon Tower Defense</title>
-    <link>http://localhost:1313/pokemon-tower-defense/</link>
+    <link>//localhost:1313/pokemon-tower-defense/</link>
     <pubDate>Thu, 04 Jul 2024 15:30:07 &#43;0100</pubDate>
     <author>Timon Venninckx</author>
-    <guid>http://localhost:1313/pokemon-tower-defense/</guid>
+    <guid>//localhost:1313/pokemon-tower-defense/</guid>
     <description><![CDATA[<h3 id="introduction">Introduction</h3>
 <p>Pokemon Tower Defense is a project that i started because i was playing the original game alot but the servers happened to go down. I wanted to challenge myself to make this game with SFML a multimedia library which i didn&rsquo;t have much knowledge of at the time.</p>
 <h3 id="what-i-learned">What I learned</h3>
@@ -61,10 +61,10 @@
 </item>
 <item>
     <title>Fortnite clone</title>
-    <link>http://localhost:1313/fortnite-clone/</link>
+    <link>//localhost:1313/fortnite-clone/</link>
     <pubDate>Tue, 01 Mar 2022 00:00:00 &#43;0100</pubDate>
     <author>Timon Venninckx</author>
-    <guid>http://localhost:1313/fortnite-clone/</guid>
+    <guid>//localhost:1313/fortnite-clone/</guid>
     <description><![CDATA[<h2 id="heading">:)</h2>
 <p>This is a very old project where I made a Fortnite clone using unreal engine with mostly blueprints. At the time I really wanted to recreate the building mechanics that Fortnite had. In the process of making this game I learned a lot about:</p>
 <ul>
