@@ -127,7 +127,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # website images for Open Graph and Twitter Cards
 
-  images = ["/logo.png"]
+  images = ["/logo.webp"]
 
 
 

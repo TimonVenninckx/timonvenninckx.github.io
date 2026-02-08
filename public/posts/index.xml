@@ -65,7 +65,7 @@
     <pubDate>Tue, 01 Mar 2022 00:00:00 &#43;0100</pubDate>
     <author>Timon Venninckx</author>
     <guid>http://localhost:1313/fortnite-clone/</guid>
-    <description><![CDATA[<h3 id="heading">:)</h3>
+    <description><![CDATA[<h3 id="introduction">Introduction</h3>
 <p>This is a very old project where I made a Fortnite clone using unreal engine with mostly blueprints. At the time I really wanted to recreate the building mechanics that Fortnite had. In the process of making this game I learned a lot about:</p>
 <ul>
 <li>Data structures</li>

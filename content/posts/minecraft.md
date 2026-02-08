@@ -1,8 +1,8 @@
 +++
 date = "2026-01-16T00:00:00+01:00"
 title = "Minecraft remake"
-video = "/videos/minecraft_timelapse.mkv"
-featuredImagePreview = "/images/minecraft.jpg" 
+video = "/videos/minecraft_timelapse.webm"
+featuredImagePreview = "/images/minecraft.webp" 
 
 projectDescription = "Minecraft remake made during my second block at BUAS featuring Infinite worlds, biomes, villages, spaghetti caves, building, mining, crafting, block states and a creeper."
 timeSpent = "8 weeks"
