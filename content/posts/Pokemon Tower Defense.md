@@ -19,6 +19,5 @@ Learned a lot about loading textures, levels and data into memory and unloading 
 
 Working with SQLite database creating, reading and saving data.
 
-
 ### Gameplay video
 {{< youtube id=6IF8P8saTHg >}}

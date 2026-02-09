@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7884e0b193757b96",
+        "id": "63c24dbd7239fa83",
         "type": "tabs",
         "children": [
           {
-            "id": "af9da45e883b2509",
+            "id": "19b064670445db1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Fortnite clone.md",
+                "file": "content/posts/minecraft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fortnite clone"
+              "title": "minecraft"
             }
           }
         ]
@@ -183,32 +183,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "af9da45e883b2509",
+  "active": "19b064670445db1f",
   "lastOpenFiles": [
-    "content/posts/minecraft.md",
-    "content/posts/bomberman.md",
-    "content/posts/Fortnite clone.md",
+    "public/images/minecraft/week8_wormcaves.webp",
+    "static/images/minecraft/week8_wormcaves.webp",
+    "public/images/minecraft/bunch_of_items.webp",
+    "static/images/minecraft/bunch_of_items.webp",
+    "public/images/minecraft/villages.webp",
+    "static/images/minecraft/villages.webp",
+    "public/images/minecraft/icons_early_screenshot.webp",
+    "static/images/minecraft/icons_early_screenshot.webp",
     "content/posts/Pokemon Tower Defense.md",
+    "static/images/minecraft.webp",
+    "public/images/minecraft/week8_3biomes.webp",
+    "static/images/minecraft/week8_3biomes.webp",
+    "public/images/minecraft",
+    "public/images/Untitled",
+    "static/images/minecraft",
+    "content/posts/minecraft.md",
+    "content/posts/Fortnite clone.md",
+    "content/posts/bomberman.md",
     "static/site.webmanifest",
-    "static/favicon-32x32.png",
-    "static/favicon-16x16.png",
     "static/favicon.ico",
-    "static/apple-touch-icon.png",
-    "static/android-chrome-512x512.png",
-    "static/android-chrome-192x192.png",
     "static/about.txt",
     "public/videos/MinecraftTimelapse.mp4",
     "static/videos/MinecraftTimelapse.mp4",
     "static/videos/Minecraft Timelapse.mp4",
     "static/videos/pokemontowerdefense.mp4",
-    "static/videos/fortniteclone.mp4",
-    "static/videos/bomberman.mp4",
-    "public/videos/fortniteclone.webm",
-    "public/images/minecraft.webp",
-    "public/images/avatar.webp",
-    "static/images/minecraft.webp",
-    "static/images/avatar.webp",
-    "public/apple-touch-icon.png",
     "themes/LoveIt/exampleSite/content/tags/installation/_index.zh-cn.md",
     "themes/LoveIt/exampleSite/content/categories/documentation/_index.zh-cn.md",
     "themes/LoveIt/exampleSite/content/categories/documentation/_index.en.md",
