@@ -3,9 +3,21 @@
         <title>Timon Venninckx</title>
         <link>http://localhost:1313/</link>
         <description>Timon Venninckx</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 16 Jan 2026 00:00:00 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 27 May 2026 12:00:00 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Real-time Voxel Path tracer</title>
+    <link>http://localhost:1313/real-time-voxel-path-tracer-with-physics/</link>
+    <pubDate>Wed, 27 May 2026 12:00:00 &#43;0100</pubDate>
+    <author>Timon Venninckx</author>
+    <guid>http://localhost:1313/real-time-voxel-path-tracer-with-physics/</guid>
+    <description><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>For my third block in my first year at <a href="https://www.buas.nl/" target="_blank" rel="noopener noreffer ">BUAS</a> the objective was to create a ray tracer in <strong>6 Weeks</strong>, and spend the remaining <strong>2 weeks</strong> building a game. <br>
+We got a template and were going to do CPU ray tracing this block, however since I knew from the beginning that I would need the CPU for the heavy physics calculations I wanted to do the rendering on the GPU. This is because I wanted to create a Teardown-like voxel game. So I asked my lecturer if I could work on the <strong>GPU</strong> and he said yes🥳! <br>
+If you want to see the other projects made here is a <a href="https://www.linkedin.com/feed/update/urn:li:activity:7449112698362978304/?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADr6NbMBO3mTgVuLj_NaTHtbo8UwplCHnXw" target="_blank" rel="noopener noreffer ">LinkedIn post</a> from my lecturer Jacco Bikker, below the video I will explain my journey through the project and things I learned.<br>
+<a href="https://github.com/TimonVenninckx/Teardown-voxel-path-tracer" target="_blank" rel="noopener noreffer ">Code is on Github</a> it&rsquo;s not pretty but I will be focussing on writing cleaner code/API&rsquo;s for future projects.</p>]]></description>
+</item>
+<item>
     <title>Minecraft remake</title>
     <link>http://localhost:1313/minecraft/</link>
     <pubDate>Fri, 16 Jan 2026 00:00:00 &#43;0100</pubDate>

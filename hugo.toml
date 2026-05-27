@@ -93,6 +93,28 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     title = ""
 
+    [[menu.main]]
+
+    weight = 1
+
+    #identifier = "Aboutme"
+
+    # you can add extra information before the name (HTML format is supported), such as icons
+
+    #pre = ""
+
+    # you can add extra information after the name (HTML format is supported), such as icons
+
+    #post = ""
+
+    #name = "About me"
+
+    #url = "/aboutme/"
+
+    # title will be shown when you hover on this menu link
+
+    #title = ""
+
 
 
 
@@ -325,11 +347,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # subtitle shown in home page (HTML format is supported)
 
-      subtitle = "1st year game-programmer@BUAS"
+      subtitle = """
+      1st year game programmer @ BUAS<br><br>
+      I’m a game programming student at <strong>BUAS</strong> with a passion for
+      graphics, physics & engine programming.<br> I also like to dabble in Physics and write my own engine.
+      I like to optimize my code.
+"""
 
       # whether to use typeit animation for subtitle
 
-      typeit = true
+      typeit = false
 
       # whether to show social links
 
@@ -338,6 +365,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  disclaimer (HTML format is supported)
 
       disclaimer = ""
+      
 
     # Home page posts
 
@@ -938,7 +966,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # typing speed between each step (measured in milliseconds)
 
-    speed = 30
+    speed = 10
 
     # blinking speed of the cursor (measured in milliseconds)
 
