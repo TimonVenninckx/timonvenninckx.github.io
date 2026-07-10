@@ -77,3 +77,12 @@ body[theme="dark"] .page .summary-card:hover {
   opacity: 0.9;
   line-height: 1.6;
 }
+
+#cusdis_thread iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
+.single .content, .single {
+  overflow: visible;
+}

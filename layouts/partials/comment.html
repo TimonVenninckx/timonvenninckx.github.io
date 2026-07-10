@@ -1,0 +1,14 @@
+<br>
+<h1 class="single-title animate__animated animate__flipInX">Comments</h1>
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="8a6b4c0e-8b62-4fd0-94b1-a57aafc817d6"
+  data-page-id="{{ .File.UniqueID }}"
+  data-page-url="{{ .Permalink }}"
+  data-page-title="{{ .Title }}"
+></div>
+<script>
+  var theme = localStorage.getItem('theme') || 'light';
+  document.getElementById('cusdis_thread').setAttribute('data-theme', theme);
+</script>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>

@@ -3,9 +3,20 @@
         <title>Timon Venninckx</title>
         <link>http://localhost:1313/</link>
         <description>Timon Venninckx</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 27 May 2026 12:00:00 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Jul 2026 09:00:00 &#43;0100</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Procedural levels in Summoning Stones</title>
+    <link>http://localhost:1313/procedural-levels-in-summoning-stones/</link>
+    <pubDate>Fri, 10 Jul 2026 09:00:00 &#43;0100</pubDate>
+    <author>Timon Venninckx</author>
+    <guid>http://localhost:1313/procedural-levels-in-summoning-stones/</guid>
+    <description><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>For my fourth and final block in my first year at <a href="https://www.buas.nl/" target="_blank" rel="noopener noreffer ">BUAS</a> we had to work in teams and create a complete game in 8 weeks and put it on <a href="https://buas.itch.io/venture" target="_blank" rel="noopener noreffer ">Itch.</a><br>
+This was my first time working on a game in a bigger team, this was a really fun experience and taught me a lot about teamwork and the other disciplines: design &amp; art. I worked mostly on gameplay systems for the actual duration of the block, implementing the quest system, minion interactions, inventory system, initial UI setup and other things based on designer mock-ups. After the official 8 weeks of the project passed some students kept working on the project and that&rsquo;s when I started working on procedural level generation with designer <a href="https://www.linkedin.com/in/thijswerkman/" target="_blank" rel="noopener noreffer ">Thijs Werkman</a>. This is what the rest of the blog will be about😁(this took ~3 weeks, not full time)
+Make sure to play our game <a href="https://buas.itch.io/venture" target="_blank" rel="noopener noreffer "><strong>on Itch!!!!!!!</strong></a></p>]]></description>
+</item>
+<item>
     <title>Real-time Voxel Path tracer</title>
     <link>http://localhost:1313/real-time-voxel-path-tracer-with-physics/</link>
     <pubDate>Wed, 27 May 2026 12:00:00 &#43;0100</pubDate>

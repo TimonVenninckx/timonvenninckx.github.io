@@ -350,7 +350,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       subtitle = """
       1st year game programmer @ BUAS<br><br>
       I’m a game programming student at <strong>BUAS</strong> with a passion for
-      graphics, physics & engine programming.<br> I also like to dabble in Physics and write my own engine.
+      graphics programming.<br> I also like to dabble in Physics and write my own engine.
       I like to optimize my code.
 """
 
